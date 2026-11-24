@@ -48,6 +48,8 @@ section .hero-text1{
     src: url("akira.otf") format("opentype");
 }
 
+
+
 section{
    padding: 0 50px;
 }
