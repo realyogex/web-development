@@ -1,0 +1,132 @@
+* { margin: 0; padding: 0; box-sizing: border-box; } 
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+main{
+   width: 100%;
+   background-color: #d5ff40;
+}
+nav{
+   padding: 45px 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav .part2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 85px;
+}
+nav h2{
+   font-size: 30px;
+   font-weight: 540;
+   font-family: SF Pro Display, sans-serif;
+   font-weight: 600;
+   
+}
+nav a{
+   text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 200;
+    font-style: Bold;
+
+}
+section .hero-text1{
+   display: flex;
+   align-items: flex start;
+   justify-content: space-between;
+}
+
+@font-face {
+    font-family: "Akira";
+    src: url("akira.otf") format("opentype");
+}
+
+section{
+   padding: 0 50px;
+}
+.hero-text1 h1 {
+    font-size: 150px;
+    font-family: "Akira", sans-serif;
+}
+
+.hero-text1 .video {
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    border-radius: 55px;
+    margin-top: 27px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/028/822/414/large_2x/ai-generative-close-upgraphy-of-eye-cinematic-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    
+}
+.hero-text2 h1{
+    font-size: 150px;
+    font-family: "Akira", sans-serif;
+    margin-top: -40px;
+    
+}
+section .hero-text2{
+   display: flex;
+   align-items: flex start;
+   justify-content: space-between;
+}
+.hero-text2 p{
+    font-size: 30px;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+}
+.video .play{
+   width: 25%;
+   height: 100%;
+   background-color: white;
+   border-radius: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.play i{
+   font-size: 70px;
+   color: black;
+}
+.image{
+   width: 90%;
+   height: 1000px;
+   margin-left: 80px;
+   background-color: black;
+   border-top-left-radius: 100px;
+   border-top-right-radius: 100px;
+   background-image: url(https://i.pinimg.com/1200x/08/5a/95/085a95b3f49420f2982b47e63a2a2e99.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   margin-top: 50px;
+
+}
+.image .arrow{
+   width: 200px;
+   height: 200px;
+   background-color: black;
+   border-radius: 50%;
+   position: absolute;
+   right: 70px;
+   top: -50px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid rgb(253, 144, 144);
+   
+}
+.arrow i{
+   font-size: 150px;
+}
